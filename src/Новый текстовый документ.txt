@@ -1,0 +1,4 @@
+	double cell_size(size_t level)
+	{
+		return scale / (1 << level);
+	}
